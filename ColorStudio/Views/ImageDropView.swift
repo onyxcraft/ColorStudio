@@ -11,7 +11,7 @@ struct ImageDropView: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 12)
                     .strokeBorder(
-                        style: StrokedBorderShapeStyle(lineWidth: 2, dash: [8])
+                        style: StrokeStyle(lineWidth: 2, dash: [8])
                     )
                     .foregroundColor(isTargeted ? .accentColor : .gray.opacity(0.5))
                     .background(
